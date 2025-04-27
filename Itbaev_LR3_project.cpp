@@ -12,9 +12,16 @@ int A, B, C, rem,integer_division;
      cin >> C;
      rem = (A - B) % C;
      cout << rem;
- 
+ }
  void ex_2(){
- 
+      cout << "Введите целое число A: ";
+     cin >> A;
+     cout << "Введите целое число B: ";
+     cin >> B;
+     cout << "Введите целое число C: ";
+     cin >> C;
+     integer_division = A / (B + C);
+     cout << integer_division;
  }
  
  int main() {
