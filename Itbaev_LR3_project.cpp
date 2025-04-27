@@ -1,10 +1,17 @@
 #include <iostream>
  using namespace std;
  
- int A, B, C;
+int A, B, C, rem,integer_division;
  void ex_1(){
  
- }
+     cout << "Введите целое число A: ";
+     cin >> A;
+     cout << "Введите целое число B: ";
+     cin >> B;
+     cout << "Введите целое число C: ";
+     cin >> C;
+     rem = (A - B) % C;
+     cout << rem;
  
  void ex_2(){
  
@@ -12,13 +19,6 @@
  
  int main() {
      int choice;
-     
-     cout << "Введите целое число A: ";
-     cin >> A;
-     cout << "Введите целое число B: ";
-     cin >> B;
-     cout << "Введите целое число C: ";
-     cin >> C;
      
      cout << "\nВыберите операцию:\n";
      cout << "1 - Остаток от деления (A - B) на C\n";
