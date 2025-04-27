@@ -1,0 +1,43 @@
+#include <iostream>
+ using namespace std;
+ 
+ int A, B, C;
+ void ex_1(){
+ 
+ }
+ 
+ void ex_2(){
+ 
+ }
+ 
+ int main() {
+     int choice;
+     
+     cout << "Введите целое число A: ";
+     cin >> A;
+     cout << "Введите целое число B: ";
+     cin >> B;
+     cout << "Введите целое число C: ";
+     cin >> C;
+     
+     cout << "\nВыберите операцию:\n";
+     cout << "1 - Остаток от деления (A - B) на C\n";
+     cout << "2 - Целая часть от деления A на (B + C)\n";
+     cout << "Ваш выбор: ";
+     cin >> choice;
+     
+     switch (choice) {
+         case 1: {
+             ex_1();
+             break;
+         }
+         case 2: {
+             ex_2();
+             break;
+         }
+         default:
+             cout << "Некорректный выбор операции!" << endl;
+     }
+     
+     return 0;
+ }
