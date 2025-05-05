@@ -15,7 +15,7 @@ int A, B, C, rem,integer_division;
      cin >> B;
  }
   void ex_4(){
-    // rem = (A + B) % C;
+    rem = (A + B) % C;
  }
   void ex_5(){
     // integer_division = A / (B + C);
