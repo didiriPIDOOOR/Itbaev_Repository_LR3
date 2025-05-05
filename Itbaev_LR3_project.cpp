@@ -18,7 +18,7 @@ int A, B, C, rem,integer_division;
     rem = (A + B) % C;
  }
   void ex_5(){
-    // integer_division = A / (B + C);
+    integer_division = A / (B + C);
  }
  int main() {
      int choice;
