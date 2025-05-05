@@ -11,8 +11,8 @@ int A, B, C, rem,integer_division;
      cin >> B;
  }
   void ex_3(){
-    //  cout << "Введите целое число B: ";
-    //  cin >> B;
+     cout << "Введите целое число B: ";
+     cin >> B;
  }
   void ex_4(){
     // rem = (A + B) % C;
