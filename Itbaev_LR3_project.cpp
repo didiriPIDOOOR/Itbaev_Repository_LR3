@@ -7,8 +7,8 @@ int A, B, C, rem,integer_division;
      cin >> A;
  }
  void ex_2(){
-    //  cout << "Введите целое число B: ";
-    //  cin >> B;
+     cout << "Введите целое число B: ";
+     cin >> B;
  }
   void ex_3(){
     //  cout << "Введите целое число B: ";
@@ -18,7 +18,7 @@ int A, B, C, rem,integer_division;
     // rem = (A + B) % C;
  }
   void ex_5(){
-    // integer_division = A / (B + C)
+    // integer_division = A / (B + C);
  }
  int main() {
      int choice;
